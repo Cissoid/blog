@@ -1,0 +1,22 @@
+---
+
+baseURL: "http://wxh.me:12345"
+copyright: "cissoid"
+editor: "vim"
+enableEmoji: true
+enableRobotsTXT: true
+googleAnalytics: "UA-67524885-1"
+hasCJKLanguage: true
+languageCode: "en-us"
+metaDataFormat: "yaml"
+newContentEditor: "vim"
+paginate: 5
+permalinks:
+    post: /:year/:month/:title/
+title: "B-log"
+
+theme: "hugo-theme-minimalism"
+
+params:
+
+---
