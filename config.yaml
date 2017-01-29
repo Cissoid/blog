@@ -1,6 +1,6 @@
 ---
 
-baseURL: "http://wxh.me:12345"
+baseURL: "http://blog.wxh.me"
 copyright: "cissoid"
 editor: "vim"
 enableEmoji: true
