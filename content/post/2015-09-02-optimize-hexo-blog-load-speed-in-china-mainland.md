@@ -1,6 +1,6 @@
 ---
-title: 优化 Hexo 博客在国内的访问速度
 date: 2015-09-02T14:57:00+08:00
+title: 优化 Hexo 博客在国内的访问速度
 ---
 
 
@@ -23,7 +23,7 @@ date: 2015-09-02T14:57:00+08:00
 
 在国内 dig blog.wxh.me, 可以看到
 
-```
+``` Text
 ;; ANSWER SECTION:
 blog.wxh.me.		579	IN	CNAME	gitcafe.io.
 gitcafe.io.		382	IN	A	103.56.54.5
@@ -31,7 +31,7 @@ gitcafe.io.		382	IN	A	103.56.54.5
 
 而在海外的 VPS 上执行同样操作, 看到返回的内容是
 
-```
+``` Text
 ;; ANSWER SECTION:
 blog.wxh.me.		599	IN	CNAME	cissoid.github.io.
 cissoid.github.io.	3599	IN	CNAME	github.map.fastly.net.

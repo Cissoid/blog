@@ -14,7 +14,7 @@ date: 2016-01-26T23:02:05+08:00
 
 1. 切换代码及日志目录的所有者
 
-```
+``` Text
 chown -R cissoid:cissoid path/to/project
 chown -R cissoid:cissoid path/to/log
 ```
@@ -27,7 +27,7 @@ chown -R cissoid:cissoid path/to/log
 
 在 supervisor 中提示 `ERROR (abnormal termination)`, 查看 supervisor 日志, 发现有如下日志:
 
-```
+``` Text
 2016-01-25 21:10:42,206 INFO spawned: 'test_server' with pid 27726
 2016-01-25 21:10:42,765 INFO exited: test_server (exit status 3; not expected)
 2016-01-25 21:10:43,773 INFO spawned: 'test_server' with pid 27732
@@ -41,7 +41,7 @@ chown -R cissoid:cissoid path/to/log
 
 可以看出 supervisor 多次尝试重启进程均失败, 初步推断为 gunicorn 因为权限问题导致 import 失败. 打开 gunicorn 的 debug 日志, 得到如下错误日志:
 
-```
+``` Text
 2016-01-25 21:26:22 [11299] [INFO] Starting gunicorn 19.1.0
 2016-01-25 21:26:22 [11299] [DEBUG] Arbiter booted
 2016-01-25 21:26:22 [11299] [INFO] Listening at: http://0.0.0.0:8080 (27886)
@@ -63,7 +63,7 @@ chown -R cissoid:cissoid path/to/log
 出错的原因找到了, 确实是因为环境变量引起的,
 那么环境变量不同为什么会造成这种现象呢? 继续在代码里增加一个全局的 try-catch, 发现在 import MySQLdb 时抛了异常:
 
-```
+``` Text
 ExtractionError: Can't extract file(s) to egg cache
 
 The following error occurred while trying to extract file(s) to the Python egg cache:

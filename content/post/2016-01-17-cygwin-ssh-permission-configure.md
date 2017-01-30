@@ -1,6 +1,6 @@
 ---
-title: Cygwin 环境下 SSH 的权限配置问题
 date: 2016-01-17T17:04:31+08:00
+title: Cygwin 环境下 SSH 的权限配置问题
 ---
 
 
@@ -10,7 +10,7 @@ Windows 和 *nix 的权限系统有很大的差别, 所以虽然 Cygwin 移植�
 
 1. 刚安装好 Cygwin 的情况下, 输入 `ssh -T git@github.com`, 会提示如下信息:
 
-```
+``` Text
 Could not create directory '/home/username/.ssh'.
 The authenticity of host 'github.com (xxx.xxx.xxx.xxx)' can't be established.
 RSA key fingerprint is xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.
@@ -31,7 +31,7 @@ Permission denied (publickey).
 
 解决方法: 执行如下语句
 
-```
+``` Text
 chown -R username .ssh/
 chmod -R 600 .ssh/
 ```
@@ -42,7 +42,7 @@ chmod -R 600 .ssh/
 
 解决方法: 将自己 Github 公钥对应的私钥放到 .ssh/ 目录下, 修改文件名为 id_rsa, 并且权限也要设为 600. 同时, 如果已经有另一个 id_rsa 并作他用的话, 也可以创建 config 文件来指定 Github 使用的私钥. 创建 .ssh/config 文件并写入以下内容:
 
-```
+``` Text
 Host github.com
 Hostname github.com
 User git

@@ -1,6 +1,6 @@
 ---
-title: Python 标准库笔记 —— __future__
 date: 2015-09-11T22:42:40+08:00
+title: Python 标准库笔记 —— __future__
 ---
 
 
@@ -30,7 +30,7 @@ if __name__ == '__main__':
 
 使用 2.1 版本的 Python 运行, 会返回
 
-```
+``` Text
 test_nested_scopes.py:3: SyntaxWarning: local name 'a' in 'main' shadows use of 'a' as global in nested scope 'lambda'
   def main():
 outer
@@ -52,7 +52,7 @@ NameError: global name 'a' is not defined
 
 而把第一行的注释取消掉后, 再次执行, 会返回
 
-```
+``` Text
 outer
 globals: {'nested_scopes': Feature((2, 1, 0, 'beta', 1), (2, 2, 0, 'final', 0)), '__doc__': None, 'main': <function main at 02693F5C>, '__name__': '__main__', '__builtins__': <module '__builtin__' (built-in)>}
 locals: {'a': 1}
@@ -68,7 +68,7 @@ a=1
 
 有一个奇怪的问题是, 在 Python 2.7 中执行同样的代码, 返回的内容为
 
-```
+``` Text
 outer
 globals: {'nested_scopes': _Feature((2, 1, 0, 'beta', 1), (2, 2, 0, 'alpha', 0), 16), '__builtins__': <module '__builtin__' (built-in)>, '__file__': 'test_nested_scopes.py', '__package__': None, '__name__': '__main__', 'main': <function main at 0x02A60C70>, '__doc__': None}
 locals: {'a': 1}
@@ -109,7 +109,7 @@ if __name__ == '__main__':
 
 运行它, 会输出
 
-```
+``` Text
 <type 'generator'>
 1
 2
@@ -124,7 +124,7 @@ if __name__ == '__main__':
 
 这个也很简单. 2.x 版本的 Python 中, 除号 `/` 计算出的结果会是被除数和除数中精度更高的那一个类型, 举一些例子:
 
-```
+``` Text
 >>> 10 / 3
 3
 >>> 10L / 3
@@ -135,7 +135,7 @@ if __name__ == '__main__':
 
 因此, 除法结果的类型往往是难以预期的. 为了解决这个问题, 引入了新的计算符 `//`. 使用 `/` 得出的结果始终是精确的, 而使用 `//` 得出的结果始终是向下取整的(但类型仍然是两个数中相对高的那一个), 这样就很明确了. 还是举一些例子:
 
-```
+``` Text
 >>> from \_\_future\_\_ import division
 >>> 10 / 3
 3.3333333333333335
@@ -153,7 +153,7 @@ if __name__ == '__main__':
 
 这个功能也很容易理解. 简单地说, 它是为了解决这样一个问题：当我们在代码中写下 `import sys` 时, 怎样确定实际导入的是标准库中的 sys 模块, 或是当前文件夹下的 sys.py 文件呢? 虽然几乎不会有人会起这样一个与标准库产生冲突的文件名, 但也不得不承认, 这种 import 方式是会产生混淆的. absolute\_import 绝对引用即是为了解决这个问题. 还是用一个简单的例子试一下. 创建一个自定义的 package, 结构如下:
 
-```
+``` Text
 package
 |-- __init__.py
 |-- main.py
@@ -196,14 +196,14 @@ $
 
 这个是让 Python 2.6 中正式加入的 with 语法在 2.5 中也能够使用. with 语法的作用就是可以让对象自动完成一些初始化和清理工作. PEP 343 中已经有很直白的解释了.
 
-```
+``` Python
 with EXPR as VAR:
     BLOCK
 ```
 
 相当于
 
-```
+``` Python
 VAR = EXPR
 VAR.__enter__()
 try:
