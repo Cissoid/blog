@@ -27,7 +27,7 @@ int main(int argc, char **argv) {
 }
 ```
 
-其中使用 [:VIM_EVAL:][:END_EVAL:] 来作为替换变量的标志. 中间的部分会使用 `eval()` 执行.
+其中使用 `[:VIM_EVAL:][:END_EVAL:]` 来作为替换变量的标志. 中间的部分会使用 `eval()` 执行.
 
 ### 1.2. 在 vimrc 中添加如下函数.
 

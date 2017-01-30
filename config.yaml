@@ -13,6 +13,7 @@ newContentEditor: "vim"
 paginate: 5
 permalinks:
     post: /:year/:month/:title/
+PygmentsCodeFences: true
 title: "B-log"
 
 theme: "hugo-theme-minimalism"
