@@ -3,7 +3,7 @@ date: 2017-01-30T21:55:23+08:00
 title: 迁移到 Hugo
 ---
 
-最近把静态 Blog 生成工具由之前的 (Hexo)[https://hexo.io] 切换到了 (Hugo)[https://gohugo.io], 没有特别的原因, 只是因为相对于 nodejs, 更熟悉且更喜欢 golang 一些...
+最近把静态 Blog 生成工具由之前的 [Hexo](https://hexo.io) 切换到了 [Hugo](https://gohugo.io), 没有特别的原因, 只是因为相对于 nodejs, 更熟悉且更喜欢 golang 一些...
 
 <!--more-->
 
