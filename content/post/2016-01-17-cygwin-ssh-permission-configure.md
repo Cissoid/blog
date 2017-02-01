@@ -51,4 +51,6 @@ IdentityFile ~/.ssh/key_name
 
 然后现在再执行 `ssh -T git@github.com`, 可以看到验证成功的消息了:
 
-`Hi username! You've successfully authenticated, but GitHub does not provide shell access.`
+``` Text
+Hi username! You've successfully authenticated, but GitHub does not provide shell access.
+```
