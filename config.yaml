@@ -10,7 +10,7 @@ hasCJKLanguage: true
 languageCode: "en-us"
 metaDataFormat: "yaml"
 newContentEditor: "vim"
-paginate: 5
+paginate: 10
 permalinks:
     post: /:year/:month/:title/
 PygmentsCodeFences: true
