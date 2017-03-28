@@ -6,7 +6,6 @@ title: Supervisor 切换用户所引起的一个 Bug.
 
 前两天在服务器上修改 supervisor 配置时遇到了一个很奇怪的 Bug,
 在这里将解决过程记录下来, 以作备忘.
-
 <!--more-->
 
 # 1. 问题产生

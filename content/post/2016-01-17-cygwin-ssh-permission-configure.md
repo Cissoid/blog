@@ -7,7 +7,6 @@ title: Cygwin 环境下 SSH 的权限配置问题
 Windows 和 *nix 的权限系统有很大的差别, 所以虽然 Cygwin 移植了 *nix
 系统中的一些程序到 Windows, 但实际使用过程中还是有一些坑需要注意,
 这里把自己遇到的问题和解决方法做一简单记录.
-
 <!--more-->
 
 1. 刚安装好 Cygwin 的情况下, 输入 `ssh -T git@github.com`, 会提示如下信息:

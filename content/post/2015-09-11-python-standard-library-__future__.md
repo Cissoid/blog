@@ -12,7 +12,6 @@ title: Python 标准库笔记 —— __future__
 打开 \_\_future\_\_.py 文件, 可以看到其中支持 7 种这样的关键字特性, 分别是
 nested\_scopes, generators, division, absolute\_import, with\_statement,
 print\_function, unicode\_literals.
-
 <!--more-->
 
 ### 1. nested\_scopes
