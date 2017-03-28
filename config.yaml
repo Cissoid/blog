@@ -16,7 +16,7 @@ permalinks:
 PygmentsCodeFences: true
 title: "B-log"
 
-theme: "hugo-theme-minimalism"
+theme: "minimalism"
 
 params:
 
