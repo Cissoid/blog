@@ -1,7 +1,8 @@
 language: go
 
 install:
-    - sudo apt-get install python3-pygments
+    # - sudo apt-get install python3-pygments
+    - sudo pip install pygments
     - which pygmentize
     - go get -u github.com/spf13/hugo
 
