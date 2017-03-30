@@ -2,6 +2,7 @@ language: go
 
 install:
     - sudo apt-get install python3-pygments
+    - which pygmentize
     - go get -u github.com/spf13/hugo
 
 script:
