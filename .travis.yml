@@ -10,6 +10,6 @@ deploy:
     provider: pages
     skip_cleanup: true
     github_token: $GITHUB_TOKEN
-    repo: git@github.com:cissoid/cissoid.github.io
+    repo: cissoid/cissoid.github.io
     local_dir: public
     target_branch: master
