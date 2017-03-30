@@ -1,7 +1,8 @@
 ---
-
+PygmentsCodeFences: true
 baseURL: "http://blog.wxh.me"
 copyright: "cissoid"
+disqusShortname: "cissoid-blog"
 editor: "vim"
 enableEmoji: true
 enableRobotsTXT: true
@@ -11,13 +12,16 @@ languageCode: "en-us"
 metaDataFormat: "yaml"
 newContentEditor: "vim"
 paginate: 10
-permalinks:
-    post: /:year/:month/:title/
-PygmentsCodeFences: true
+permalinks: {post: "/:year/:month/:title/"}
+theme: "minimalism"
 title: "B-log"
 
-theme: "minimalism"
-
-params:
-
+menu:
+    navbar:
+        - Name: "Posts"
+          URL: "/post/"
+          Weight: 1
+        - Name: "About"
+          URL: "/about/"
+          Weight: 2
 ---
