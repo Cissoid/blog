@@ -1,3 +1,3 @@
 [submodule "themes/minimalism"]
 	path = themes/minimalism
-	url = git@github.com:cissoid/hugo-theme-minimalism
+	url = https://github.com/cissoid/hugo-theme-minimalism
