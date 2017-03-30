@@ -1,7 +1,26 @@
 language: go
 
+before_install:
+    git submodule update --init
+
 install:
-    go get github.com/spf13/hugo
+    go get -u github.com/spf13/hugo
+
+before_script:
+    rm -rf public
 
 script:
     hugo
+
+after_success:
+    cd public
+    git init
+    git config user.name $DEPLOY_NAME
+    git config user.email $DEPLOY_EMAIL
+    git remote add deploy $DEPLOY_REPO
+    git commit -am "Travis CI auto deploy."
+    ssh-agent -s
+    echo "$DEPLOY_KEY" > deploy-key
+    chmod 600 deploy-key
+    ssh-add deploy-key
+    git push -f deploy $DEPLOY_BRANCH
