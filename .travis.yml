@@ -10,5 +10,5 @@ after_success:
     - ssh-agent -s
     - echo $DEPLOY_KEY > deploy-key
     - chmod 600 deploy-key
-    - ssh-ass deploy-key
+    - ssh-add deploy-key
     - make deploy
