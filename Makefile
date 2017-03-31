@@ -14,4 +14,3 @@ deploy: build
 
 clean:
 	rm -rf public/
-

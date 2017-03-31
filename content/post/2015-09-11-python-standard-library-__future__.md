@@ -14,7 +14,7 @@ nested\_scopes, generators, division, absolute\_import, with\_statement,
 print\_function, unicode\_literals.
 <!--more-->
 
-### 1. nested\_scopes
+# 1. nested\_scopes
 
 从 PEP 227 的解释来看, nested\_scopes 特性允许从代码外层的命名空间中引用变量.
 举例子而言, 有下面这段代码:
@@ -90,7 +90,7 @@ a=1
 可以看到 lambda 函数内的 locals 中是有 a 的, 这与 2.1 版本的表现并不一致,
 不清楚是在哪个版本开始做的改动. 不过毕竟 nested\_scopes 是一个老的特性, 就不去深究了...
 
-### 2. generators
+# 2. generators
 
 这个很简单, 加入了使用 yield 创建生成器的语法. 一个简单的例子:
 
@@ -128,7 +128,7 @@ if __name__ == '__main__':
 
 可以看到, 使用了 yield 关键词的函数, 会成为一个生成器.
 
-### 3. division
+# 3. division
 
 这个也很简单. 2.x 版本的 Python 中, 除号 `/` 计算出的结果会是被除数和除数中精度更高的那一个类型,
 举一些例子:
@@ -160,7 +160,7 @@ if __name__ == '__main__':
 -4.0
 ```
 
-### 4. absolute\_import
+# 4. absolute\_import
 
 这个功能也很容易理解. 简单地说, 它是为了解决这样一个问题：当我们在代码中写下
 `import sys` 时, 怎样确定实际导入的是标准库中的 sys 模块, 或是当前文件夹下的
@@ -210,7 +210,7 @@ $
 2. `from package import sys`, 这种引用方法是新的绝对引用, 即 import 路径必须以
 sys.path 里的路径为根路径开始寻找.
 
-### 5. with\_statement
+# 5. with\_statement
 
 这个是让 Python 2.6 中正式加入的 with 语法在 2.5 中也能够使用. with
 语法的作用就是可以让对象自动完成一些初始化和清理工作. PEP 343 中已经有很直白的解释了.
@@ -235,14 +235,14 @@ finally:
 
 另外, 标准库中的 contextlib 模块提供了 contextmanager 装饰器, 能够让函数也支持 with 语法.
 
-### 6. print\_function
+# 6. print\_function
 
 将 print 语句变为 Python 3 中的函数形式. 这个没有什么好说的, 不过将 print
 语句改为函数形式调用这一点很赞, 因为 print 语句的语法很奇怪, 有时候很容易出问题.
 比如需要在 print 后不换行, 就要在 print 语句后加一个逗号 (`print 'one',; print 'line'`);
 而使用 print 函数就可以很明确地使用 end 参数来设置 (`print('one', end=' '); print('line')`).
 
-### 7. unicode\_literals
+# 7. unicode\_literals
 
 同样是为了与 Python 3 的语法兼容而产生. 在 Python 2 中, 字符串默认为 str,
 而在字符串前加 u 才会是 unicode; 而在 Python 3 中, 字符串默认为 unicode,

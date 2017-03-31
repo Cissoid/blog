@@ -8,9 +8,9 @@ title: 创建一套简单的 Vim 文件模板
 再次体现出 Vim 强大的可定制性.
 <!--more-->
 
-## 1. 创建新文件时自动填入模板.
+# 1. 创建新文件时自动填入模板.
 
-### 1.1. 编写一个简单的模板, 以 C 语言的模板为例.
+## 1.1. 编写一个简单的模板, 以 C 语言的模板为例.
 
 ``` C
 /*
@@ -29,7 +29,7 @@ int main(int argc, char **argv) {
 
 其中使用 `[:VIM_EVAL:][:END_EVAL:]` 来作为替换变量的标志. 中间的部分会使用 `eval()` 执行.
 
-### 1.2. 在 vimrc 中添加如下函数.
+## 1.2. 在 vimrc 中添加如下函数.
 
 ``` Vim
 function! s:AddFileTemplate(filetype)
@@ -46,15 +46,15 @@ endfunction
 
 这里假定模板文件是放置在 `~/.vim/templates` 目录下.
 
-### 1.3. 增加 autocmd, 当新建文件时自动填入模板.
+## 1.3. 增加 autocmd, 当新建文件时自动填入模板.
 
 ``` Vim
 autocmd BufNewFile *.h,*.c call s:AddFileTemplate('c')
 ```
 
-## 2. 保存文件时自动更新时间戳.
+# 2. 保存文件时自动更新时间戳.
 
-### 2.1. 在 vimrc 中添加如下函数.
+## 2.1. 在 vimrc 中添加如下函数.
 
 ``` Vim
 function! s:UpdateFileTemplate()
@@ -69,7 +69,7 @@ function! s:UpdateFileTemplate()
 endfunction
 ```
 
-### 2.2. 增加 autocmd
+## 2.2. 增加 autocmd
 
 ``` Vim
 autocmd BufWritePre *.h,*.c call s:UpdateFileTemplate()
