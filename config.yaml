@@ -11,7 +11,7 @@ hasCJKLanguage: true
 languageCode: "en-us"
 metaDataFormat: "yaml"
 newContentEditor: "vim"
-paginate: 10
+paginate: 5
 permalinks: {post: "/:year/:month/:title/"}
 theme: "minimalism"
 title: "B-log"
