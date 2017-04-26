@@ -1,6 +1,7 @@
 ---
 date: 2015-09-11T22:42:40+08:00
 title: Python 标准库笔记 —— __future__
+slug: python-standard-library-__future__
 ---
 
 

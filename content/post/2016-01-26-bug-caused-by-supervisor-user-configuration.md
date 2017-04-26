@@ -1,6 +1,7 @@
 ---
 date: 2016-01-26T23:02:05+08:00
 title: Supervisor 切换用户所引起的一个 Bug.
+slug: bug-caused-by-supervisor-user-configuration
 ---
 
 

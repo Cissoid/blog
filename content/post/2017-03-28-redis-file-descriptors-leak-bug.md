@@ -1,6 +1,7 @@
 ---
 date: 2017-03-28T16:18:52+08:00
 title: Redis 的一个文件描述符泄露 Bug
+slug: redis-file-descriptors-leak-bug
 ---
 
 

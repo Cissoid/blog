@@ -1,6 +1,7 @@
 ---
 date: 2016-01-17T17:04:31+08:00
 title: Cygwin 环境下 SSH 的权限配置问题
+slug: cygwin-ssh-permission-configuration
 ---
 
 

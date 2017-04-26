@@ -1,6 +1,7 @@
 ---
 date: 2015-09-02T14:57:00+08:00
 title: 优化 Hexo 博客在国内的访问速度
+slug: optimize-hexo-blog-load-speed-in-china-mainland
 ---
 
 

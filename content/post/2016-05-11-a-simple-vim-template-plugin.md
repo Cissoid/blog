@@ -1,6 +1,7 @@
 ---
 date: 2016-05-11T15:58:18+08:00
-title: 创建一套简单的 Vim 文件模板
+title: 一个简单的 Vim 文件模板插件
+slug: a-simple-vim-template-plugin
 ---
 
 
