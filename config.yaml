@@ -2,7 +2,7 @@
 PygmentsCodeFences: true
 baseURL: "http://blog.wxh.me"
 copyright: "cissoid"
-disqusShortname: "cissoid-blog"
+# disqusShortname: "cissoid-blog"
 editor: "vim"
 enableEmoji: true
 enableRobotsTXT: true
