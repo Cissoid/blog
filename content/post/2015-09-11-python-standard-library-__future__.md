@@ -1,9 +1,7 @@
 ---
 date: 2015-09-11T22:42:40+08:00
 title: Python 标准库笔记 —— __future__
-slug: python-standard-library-__future__
 ---
-
 
 \_\_future\_\_ 模块可以让一些老版本的 Python 使用新版本中的一些语法特性.
 例如在 2.5 版本中是不支持 with...as... 这样的语法进行上下文管理的,

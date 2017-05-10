@@ -1,7 +1,6 @@
 ---
 date: 2017-01-30T21:55:23+08:00
 title: Minimalism -- 极简 Hugo Theme
-slug: hugo-theme-minimalism
 ---
 
 最近把静态 Blog 生成工具由之前的 [Hexo](https://hexo.io) 切换到了 [Hugo](https://gohugo.io),

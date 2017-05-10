@@ -1,9 +1,7 @@
 ---
 date: 2017-03-28T16:18:52+08:00
 title: Redis 的一个文件描述符泄露 Bug
-slug: redis-file-descriptors-leak-bug
 ---
-
 
 最近遇到了 Redis 中的一个 fd 泄露的 Bug, 经过一番排查后终于找到了原因,
 现将整个分析过程整理如下.

@@ -1,9 +1,7 @@
 ---
 date: 2016-01-17T17:04:31+08:00
 title: Cygwin 环境下 SSH 的权限配置问题
-slug: cygwin-ssh-permission-configuration
 ---
-
 
 Windows 和 *nix 的权限系统有很大的差别, 所以虽然 Cygwin 移植了 *nix
 系统中的一些程序到 Windows, 但实际使用过程中还是有一些坑需要注意,

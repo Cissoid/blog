@@ -1,9 +1,7 @@
 ---
 date: 2016-01-26T23:02:05+08:00
 title: Supervisor 切换用户所引起的一个 Bug.
-slug: bug-caused-by-supervisor-user-configuration
 ---
-
 
 前两天在服务器上修改 supervisor 配置时遇到了一个很奇怪的 Bug,
 在这里将解决过程记录下来, 以作备忘.
