@@ -45,7 +45,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis eros 
 # 代码
 I think you should use an `<addr>` element here instead.
 
-Press <kbd>Ctrl + C</kbd>.
+Press <kbd>Ctrl</kbd> + <kbd>C</kbd>.
 
 ``` python
 #!/usr/bin/env python
