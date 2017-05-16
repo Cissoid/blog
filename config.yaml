@@ -12,7 +12,7 @@ languageCode: "en-us"
 metaDataFormat: "yaml"
 newContentEditor: "vim"
 paginate: 5
-permalinks: {post: "/:year/:month/:slug/"}
+# permalinks: {post: "/:year/:month/:slug/"}
 theme: "minimalism"
 title: "B-log"
 

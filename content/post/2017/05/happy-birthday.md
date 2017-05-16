@@ -13,4 +13,4 @@ cloudmusic: 4969823
 
 这是你陪我过的第一个生日, 谢谢你送的蛋糕.
 
-![](/images/2017-05-05-happy-birthday.jpg)
+![](/images/2017/05/happy-birthday.jpg)
