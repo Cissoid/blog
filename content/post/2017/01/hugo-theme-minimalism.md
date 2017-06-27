@@ -1,5 +1,7 @@
 ---
+cloudmusic:
 date: 2017-01-30T21:55:23+08:00
+license: by-nc-sa/4.0
 title: Minimalism -- 极简 Hugo Theme
 ---
 

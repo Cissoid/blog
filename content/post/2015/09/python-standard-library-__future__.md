@@ -1,5 +1,7 @@
 ---
+cloudmusic:
 date: 2015-09-11T22:42:40+08:00
+license: by-nc-sa/4.0
 title: Python 标准库笔记 —— __future__
 ---
 

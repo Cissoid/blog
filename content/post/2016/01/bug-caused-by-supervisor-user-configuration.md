@@ -1,5 +1,7 @@
 ---
+cloudmusic:
 date: 2016-01-26T23:02:05+08:00
+license: by-nc-sa/4.0
 title: Supervisor 切换用户所引起的一个 Bug.
 ---
 

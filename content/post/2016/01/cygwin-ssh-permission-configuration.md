@@ -1,5 +1,7 @@
 ---
+cloudmusic:
 date: 2016-01-17T17:04:31+08:00
+license: by-nc-sa/4.0
 title: Cygwin 环境下 SSH 的权限配置问题
 ---
 

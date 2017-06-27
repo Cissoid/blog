@@ -1,5 +1,7 @@
 ---
+cloudmusic:
 date: 2017-05-25T15:40:11+08:00
+license: by-nc-sa/4.0
 title: Let's Encrypt 证书在 Nginx 上的配置方法
 ---
 

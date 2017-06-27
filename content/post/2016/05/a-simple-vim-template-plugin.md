@@ -1,5 +1,7 @@
 ---
+cloudmusic:
 date: 2016-05-11T15:58:18+08:00
+license: by-nc-sa/4.0
 title: 一个简单的 Vim 文件模板插件
 ---
 

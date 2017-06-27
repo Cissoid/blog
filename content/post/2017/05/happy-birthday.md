@@ -1,8 +1,8 @@
 ---
-date: 2017-05-05T23:20:52+08:00
-title: 久违的 Happy Birthday
-
 cloudmusic: 4969823
+date: 2017-05-05T23:20:52+08:00
+license: by-nc-sa/4.0
+title: 久违的 Happy Birthday
 ---
 
 上次过生日, 大概至少也是 10 年前了吧.
