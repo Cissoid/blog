@@ -1,8 +1,14 @@
 ---
-cloudmusic:
 date: 2015-09-11T22:42:40+08:00
-license: by-nc-sa/4.0
 title: Python 标准库笔记 —— __future__
+
+categories:
+    - Programming
+tags:
+    - Python
+
+minimalism:
+    license: by-nc-sa/4.0
 ---
 
 \_\_future\_\_ 模块可以让一些老版本的 Python 使用新版本中的一些语法特性.

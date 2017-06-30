@@ -1,8 +1,14 @@
 ---
-cloudmusic:
 date: 2016-05-11T15:58:18+08:00
-license: by-nc-sa/4.0
 title: 一个简单的 Vim 文件模板插件
+
+categories:
+    - Programming
+tags:
+    - Vim
+
+minimalism:
+    license: by-nc-sa/4.0
 ---
 
 最近尝试了一下在 Vim 中实现一个简单的文件模板功能, 总共只写了 3 个函数就完成了自己的需求,

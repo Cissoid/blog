@@ -1,8 +1,15 @@
 ---
-cloudmusic:
 date: 2016-01-26T23:02:05+08:00
-license: by-nc-sa/4.0
 title: Supervisor 切换用户所引起的一个 Bug.
+
+categories:
+    - Programming
+tags:
+    - Python
+    - supervisor
+
+minimalism:
+    license: by-nc-sa/4.0
 ---
 
 前两天在服务器上修改 supervisor 配置时遇到了一个很奇怪的 Bug,

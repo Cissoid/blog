@@ -1,8 +1,16 @@
 ---
-cloudmusic:
 date: 2016-01-17T17:04:31+08:00
-license: by-nc-sa/4.0
 title: Cygwin 环境下 SSH 的权限配置问题
+
+categories:
+    - Programming
+tags:
+    - Cygwin
+    - ssh
+    - git
+
+minimalism:
+    license: by-nc-sa/4.0
 ---
 
 Windows 和 *nix 的权限系统有很大的差别, 所以虽然 Cygwin 移植了 *nix

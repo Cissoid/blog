@@ -1,8 +1,15 @@
 ---
-cloudmusic:
 date: 2017-05-25T15:40:11+08:00
-license: by-nc-sa/4.0
 title: Let's Encrypt 证书在 Nginx 上的配置方法
+
+categories:
+    - Programming
+tags:
+    - Nginx
+    - Let's Encrypt
+
+minimalism:
+    license: by-nc-sa/4.0
 ---
 
 在现如今运营商劫持已变得司空见惯, 同时网络安全形势愈发严峻的大环境下, 为自己的网站上全站

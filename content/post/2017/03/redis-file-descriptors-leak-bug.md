@@ -1,8 +1,14 @@
 ---
-cloudmusic:
 date: 2017-03-28T16:18:52+08:00
-license: by-nc-sa/4.0
 title: Redis 的一个文件描述符泄露 Bug
+
+categories:
+    - Programming
+tags:
+    - redis
+
+minimalism:
+    license: by-nc-sa/4.0
 ---
 
 最近遇到了 Redis 中的一个 fd 泄露的 Bug, 经过一番排查后终于找到了原因,
