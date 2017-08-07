@@ -8,7 +8,7 @@ enableEmoji: true
 enableRobotsTXT: true
 googleAnalytics: "UA-67524885-1"
 hasCJKLanguage: true
-languageCode: "en-us"
+languageCode: "zh-cn"
 metaDataFormat: "yaml"
 newContentEditor: "vim"
 paginate: 5
