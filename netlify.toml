@@ -1,0 +1,6 @@
+[build]
+    publish = "public"
+    command = "pip install -U pygments; hugo -v"
+
+[context.production.environment]
+    HUGO_VERSION = "0.25.1"
