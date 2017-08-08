@@ -30,7 +30,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis eros 
 > Sed ut bibendum ipsum, non interdum erat. Fusce in porttitor velit. Nullam vitae elementum felis. Sed nec ultrices est. Nulla facilisis mattis nunc. Quisque leo nisi, pulvinar eget dignissim sit amet, porta vel ante. Phasellus pellentesque ac sem vitae pharetra. Phasellus efficitur sem eu felis euismod commodo eget et risus. Quisque sit amet tincidunt nibh. Nullam fermentum, odio vel venenatis egestas, risus tellus fermentum purus, eu accumsan massa velit quis est. Vestibulum sit amet sapien orci.
 
 # 图片
-![](https://unsplash.it/g/768/432?random)
+![](https://images.unsplash.com/photo-1488764619428-8fc2aaf23eba)
 
 # 列表
 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -73,21 +73,3 @@ if __name__ == '__main__':
 |:---------------------------:|:----------------------------:|
 | Content from cell 1         | Content from cell 2          |
 | Content in the first column | Content in the second column |
-
-# twitter
-{{< tweet 666616452582129664 >}}
-
-# Youtube
-{{< youtube w7Ft2ymGmfc >}}
-
-# Vimeo
-{{< vimeo 146022717 >}}
-
-# Github gist
-{{< gist spf13 7896402 >}}
-
-# Speaker deck
-{{< speakerdeck 4e8126e72d853c0060001f97 >}}
-
-# Instagram
-{{< instagram BMokmydjG-M >}}
