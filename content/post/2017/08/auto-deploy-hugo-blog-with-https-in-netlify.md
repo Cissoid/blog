@@ -12,15 +12,15 @@ minimalism:
 自动部署静态站点的方法有很多, 例如我之前使用过的 [Travis CI](https://travis-ci.org),
 或是使用 github 原生支持的 [jekyll](https://jekyllrb.com/), 即使是通过 webhook
 来自己实现也很简单. 今天要介绍的 Netlify 在自动部署这一块并没有什么特别之处,
-它的优势在于: 支持自定义域名的 https.
+它的优势在于: 支持自定义域名的 HTTPS.
 <!--more-->
 
-在知道 Netlify 之前, 我所了解的可以让静态站点使用 https 的方式有两种:
+在知道 Netlify 之前, 我所了解的可以让静态站点使用 HTTPS 的方式有两种:
 1. 托管到自己的服务器上. 这样当然想怎么折腾都可以, 但这样总感觉失去了静态博客的意义,
 而且有一定的门槛: 需要有自己的服务器. 而且我并不想为此耗费自己服务器的带宽和资源,
 也不想暴露服务器的 ip.
 2. 使用 [Cloudflare](https://www.cloudflare.com) 的 NS 服务, 利用其提供的 `Universal SSL`
-服务提供 https. 但是这样做需要把域名的 NS 服务迁到 Cloudflare, 也有点得不偿失了.
+服务提供 HTTPS. 但是这样做需要把域名的 NS 服务迁到 Cloudflare, 也有点得不偿失了.
 另外 Cloudflare CDN 连国内的速度貌似不怎么样, 也不知道 NS 服务又是什么情况.
 
 而 Netlify 可以说是完美解决了以上两点, 首先, 站点是托管在 Netlify 的服务器上;
