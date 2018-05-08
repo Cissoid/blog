@@ -1,7 +1,7 @@
 ---
-PygmentsCodeFences: true
-baseURL: "http://blog.wxh.me"
+baseURL: "https://blog.wxh.me"
 copyright: "cissoid"
+disableHugoGeneratorInject: true
 disqusShortname: "cissoid-blog"
 editor: "vim"
 enableEmoji: true
@@ -11,10 +11,17 @@ hasCJKLanguage: true
 languageCode: "zh-cn"
 metaDataFormat: "yaml"
 newContentEditor: "vim"
-paginate: 5
-# permalinks: {post: "/:year/:month/:slug/"}
+paginate: 10
+pygmentsCodeFences: true
+pygmentsCodeFencesGuessSyntax: true
+pygmentsStyle: "monokai"
 theme: "minimalism"
 title: "B-log"
+
+# permalinks: {post: "/:year/:month/:slug/"}
+
+params:
+    Subtitle: "cissoid 的装逼日志"
 
 menu:
     navbar:

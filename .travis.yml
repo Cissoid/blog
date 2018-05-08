@@ -1,10 +1,12 @@
-language: go
+addons:
+  apt:
+    packages:
+      - python-pygments
 
 install:
-    # - sudo apt-get install python3-pygments
-    - sudo pip install pygments
-    - which pygmentize
-    - go get -u github.com/spf13/hugo
+    - wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.deb"
+    - ls -l
+    - sudo apt install -f ./hugo_${HUGO_VERSION}_Linux-64bit.deb
 
 script:
     hugo
