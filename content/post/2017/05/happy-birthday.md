@@ -1,14 +1,12 @@
----
-date: 2017-05-05T23:20:52+08:00
-title: 久违的 Happy Birthday
++++
+date = 2017-05-05T23:20:52+08:00
+title = "久违的 Happy Birthday"
+categories = ["Life"]
 
-categories:
-    - Life
-
-minimalism:
-    cloudmusic: 4969823
-    license: by-nc-sa/4.0
----
+[minimalism]
+    cloudmusic = 4969823
+    license = "by-nc-sa/4.0"
++++
 
 上次过生日, 大概至少也是 10 年前了吧.
 <!--more-->

@@ -1,0 +1,51 @@
+baseURL = "https://blog.wxh.me"
+defaultContentLanguage = "zh-cn"
+enableEmoji = true
+enableRobotsTXT = true
+googleAnalytics = "UA-67524885-1"
+hasCJKLanguage = true
+languageCode = "zh-cn"
+newContentEditor = "vim"
+pygmentsCodeFences = true
+pygmentsCodeFencesGuessSyntax = true
+theme = "minimalism"
+title = "B-log"
+
+[menu]
+    [[menu.navbar]]
+        identifier = "post"
+        name = "Post"
+        url = "/post/"
+        weight = 1
+    [[menu.navbar]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 2
+
+[privacy]
+    [privacy.disqus]
+        disable = false
+    [privacy.googleAnalytics]
+        anonymizeIP = false
+        disable = false
+        respectDoNotTrack = false
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = false
+        simple = false
+    [privacy.twitter]
+        disable = false
+        enableDNT = false
+        simple = false
+    [privacy.vimeo]
+        disable = false
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = false
+
+[sitemap]
+    changefreq = "monthly"
+    filename = "sitemap.xml"
+    priority = 0.5

@@ -1,13 +1,10 @@
----
-title: Web 字体设计总结.
-date: 2017-04-13T15:13:56+08:00
-categories:
-tags:
++++
+date = 2017-04-13T15:13:56+08:00
+title = "Web 字体设计总结"
 
-minimalism:
-    cloudmusic:
-    license: by-nc-sa/4.0
----
+[minimalism]
+    license = "by-nc-sa/4.0"
++++
 
 [Interactive Guide to Blog Typography](http://www.kaikkonendesign.fi/typography/)
 

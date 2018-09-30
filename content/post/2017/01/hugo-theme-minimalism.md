@@ -1,16 +1,12 @@
----
-date: 2017-01-30T21:55:23+08:00
-title: Minimalism -- 极简 Hugo Theme
++++
+date = 2017-01-30T21:55:23+08:00
+title = "Minimalism -- 极简 Hugo Theme"
+categories = ["Programming"]
+tags = ["Hugo", "Githug Pages"]
 
-categories:
-    - Programming
-tags:
-    - hugo
-    - Github Pages
-
-minimalism:
-    license: by-nc-sa/4.0
----
+[minimalism]
+    license = "by-nc-sa/4.0"
++++
 
 最近把静态 Blog 生成工具由之前的 [Hexo](https://hexo.io) 切换到了 [Hugo](https://gohugo.io),
 没有特别的原因, 只是因为相对于 nodejs, 更熟悉且更喜欢 golang 一些...
@@ -62,7 +58,7 @@ Press <kbd>Ctrl</kbd> + <kbd>C</kbd>.
 
 def main():
     print('Hello World')
-     
+
 
 if __name__ == '__main__':
     main()

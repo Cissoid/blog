@@ -1,17 +1,12 @@
----
-date: 2015-09-02T14:57:00+08:00
-title: 优化 Hexo 博客在国内的访问速度
++++
+date = 2015-09-02T14:57:00+08:00
+title = "优化 Hexo 博客在国内的访问速度"
+categories = ["Programming"]
+tags = ["hexo", "Github Pages", "DNS"]
 
-categories:
-    - Programming
-tags:
-    - hexo
-    - Github Pages
-    - DNS
-
-minimalism:
-    license: by-nc-sa/4.0
----
+[minimalism]
+    license = "by-nc-sa/4.0"
++++
 
 使用 Hexo + Github Pages 可以很方便地搭建起免费的静态博客站点. 然而 Github
 在国内的访问速度往往不尽如人意, 因此可以在国内的 GitCafe 上部署一套镜像,

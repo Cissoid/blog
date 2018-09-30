@@ -1,13 +1,10 @@
----
-title: 使用 Netlify 自动部署支持 HTTPS 的 Hugo 博客.
-date: 2017-08-07T11:55:49+08:00
-categories:
-tags:
++++
+date = 2017-08-07T11:55:49+08:00
+title = "使用 Netlify 自动部署支持 HTTPS 的 Hugo 博客"
 
-minimalism:
-    cloudmusic:
-    license: by-nc-sa/4.0
----
+[minimalism]
+    license = "by-nc-sa/4.0"
++++
 
 自动部署静态站点的方法有很多, 例如我之前使用过的 [Travis CI](https://travis-ci.org),
 或是使用 github 原生支持的 [jekyll](https://jekyllrb.com/), 即使是通过 webhook

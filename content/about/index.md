@@ -1,8 +1,8 @@
----
-date: 2017-05-10T17:59:48+08:00
-title: About Me
-type: page
----
++++
+date = 2017-05-10T17:59:48+08:00
+title = "About Me"
+type = "page"
++++
 
 码农, 后端方向, 前端入门水平, 但仍拥有一颗做全栈的心.
 
@@ -10,7 +10,7 @@ type: page
 
 定居成都, 非本地人.
 
-Pythonista, Vimer.
+Pythonista, Gopher, Vimer.
 
 王小波门下走狗.
 

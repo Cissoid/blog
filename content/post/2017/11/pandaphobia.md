@@ -1,13 +1,10 @@
----
-title: 熊猫恐惧症
-date: 2017-11-14T10:36:36+08:00
-categories:
-tags:
++++
+date = 2017-11-14T10:36:36+08:00
+title = "熊猫恐惧症"
 
-minimalism:
-    cloudmusic:
-    license: by-nc-sa/4.0
----
+[minimalism]
+    license = "by-nc-sa/4.0"
++++
 
 今天看到一则新闻, 说是四川某某会的吉祥物确定了, 虽然早有预感,
 但在打开网页后我还是不由自主地感叹一句: 果然又是熊猫.

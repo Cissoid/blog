@@ -1,13 +1,10 @@
----
-title: 我为什么不再使用 iPhone.
-date: 2017-06-29T18:04:52+08:00
-categories:
-tags:
++++
+date = 2017-06-29T18:04:52+08:00
+title = "我为什么不再使用 iPhone"
 
-minimalism:
-    cloudmusic:
-    license: by-nc-sa/4.0
----
+[minimalism]
+    license = "by-nc-sa/4.0"
++++
 
 十年前的今天, 乔布斯发布了第一代 iPhone, 在当时可谓惊艳世人.
 可以说乔布斯以其一己之力将整个世界带入了移动互联网时代. 无论在内网外网,

@@ -1,13 +1,10 @@
----
-title: Python 中的多重继承顺序
-date: 2017-11-16T11:43:07+08:00
-categories:
-tags:
++++
+date = 2017-11-16T11:43:07+08:00
+title = "Python 中的多重继承顺序"
 
-minimalism:
-    cloudmusic:
-    license: by-nc-sa/4.0
----
+[minimalism]
+    license = "by-nc-sa/4.0"
++++
 
 最近发现中文互联网中的很多文章对 Python 在多重继承时中基类查找顺序有如下说法:
 old style class 使用深度优先遍历, new style class 使用广度优先遍历.
@@ -129,7 +126,7 @@ C.func
 
 可以看到调用的是 C.func, 所以深度优先的查找顺序也不符合实际情况.
 
-# C3 算法!
+# Oh My Holy C3
 
 实际上, Python 在 new style class 中使用的是 C3 算法来计算多重继承顺序的. 所谓 C3
 算法, 大致是这样一个流程.
