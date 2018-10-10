@@ -1,4 +1,5 @@
 baseURL = "https://blog.wxh.me"
+copyright = "cissoid"
 defaultContentLanguage = "zh-cn"
 enableEmoji = true
 enableRobotsTXT = true
