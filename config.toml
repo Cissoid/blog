@@ -7,7 +7,6 @@ googleAnalytics = "UA-67524885-1"
 hasCJKLanguage = true
 languageCode = "zh-cn"
 newContentEditor = "vim"
-paginate = 100
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 theme = "minimalism"
