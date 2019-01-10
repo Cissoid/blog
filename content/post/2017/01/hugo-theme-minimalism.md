@@ -2,7 +2,7 @@
 date = 2017-01-30T21:55:23+08:00
 title = "Minimalism -- 极简 Hugo Theme"
 categories = ["Programming"]
-tags = ["Hugo", "Githug Pages"]
+tags = ["Hugo", "Github Pages"]
 
 [minimalism]
     license = "by-nc-sa/4.0"
