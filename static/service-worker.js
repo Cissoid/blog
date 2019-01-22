@@ -1,16 +1,16 @@
 'use strict';
 
-const cacheName = 'blog-cache';
+const CACHE_NAME = 'blog-cache';
 
 self.addEventListener('install', function(e) {
-  e.waitUntil(caches.open(cacheName));
+  e.waitUntil(caches.open(CACHE_NAME));
 });
 
 self.addEventListener('activate', function(e) {
   e.waitUntil(
     caches.keys().then(function(keyList) {
       return Promise.all(keyList.map(function(key) {
-        if (key !== cacheName) {
+        if (key !== CACHE_NAME) {
           return caches.delete(key);
         }
       }))
@@ -27,14 +27,18 @@ self.addEventListener('fetch', function(e) {
     return;
   }
   e.respondWith(async function() {
-    const cache = await caches.open(cacheName);
+    const cache = await caches.open(CACHE_NAME);
     const cachedResponse = await cache.match(e.request);
     if (cachedResponse) {
       return cachedResponse;
     }
-
+    const response = await fetch(e.request);
+    await cache.put(e.request, response.clone());
+    return response;
+  }());
+  e.waitUntil(async function() {
+    const cache = await caches.open(CACHE_NAME);
     const response = await fetch(e.request);
     await cache.put(e.request, response);
-    return cache.match(e.request);
   }());
 });
