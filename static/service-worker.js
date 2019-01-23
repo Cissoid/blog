@@ -30,15 +30,14 @@ self.addEventListener('fetch', function(e) {
     const cache = await caches.open(CACHE_NAME);
     const cachedResponse = await cache.match(e.request);
     if (cachedResponse) {
+      e.waitUntil(async function() {
+        const response = await fetch(e.request);
+        await cache.put(e.request, response);
+      }());
       return cachedResponse;
     }
     const response = await fetch(e.request);
     await cache.put(e.request, response.clone());
     return response;
-  }());
-  e.waitUntil(async function() {
-    const cache = await caches.open(CACHE_NAME);
-    const response = await fetch(e.request);
-    await cache.put(e.request, response);
   }());
 });
